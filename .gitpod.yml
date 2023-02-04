@@ -1,0 +1,6 @@
+tasks:
+  - name: Start Dev Servers
+    init: pnpm install && turbo run build
+    command: turbo run dev
+image:
+  file: .gitpod.Dockerfile
